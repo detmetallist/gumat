@@ -1,0 +1,400 @@
+@media (max-width: 1600px){
+	.preim{
+		background-size: 1600px auto;
+	}
+	.preim_bottom{
+		background-size: 1600px auto;
+		height: 80px;
+	}
+	.product{
+		background-size: 1600px auto;
+	}
+	.kakrab, .kakrab_bottom{
+		background-size: 1650px auto;
+	}
+}
+@media (max-width: 1360px){
+	.preim{
+		height: inherit;
+		overflow-x: hidden;
+		background-size: auto 100%; 
+	}
+	.bgvideo{
+		width: 1360px;
+		left: -24px;
+	}
+	.predstavitelstva{
+		background-size: 150%;
+	}
+}
+@media (max-width: 1150px){
+	.container{
+		width: 1000px;
+	}
+	.top_menu ul li a{
+		margin: 0 9px;
+	}
+	.preim_items{
+		width: 1000px;
+	}
+	.preim_center{
+		margin-left: 50px;
+		margin-right: 50px;	
+	}
+	.product .container{
+		width: 1000px;
+	}
+	.product_item{
+		margin: 25px 15px;
+	}
+	.kakrab .container{
+		width: 1000px;	
+	}
+	.kakrab_item{
+		margin-left: 16px;
+		margin-right: 16px;
+	}
+	.predstavitelstva .container{
+		width: 1000px;
+	}
+	.predst_item{
+		margin: 0 15px;
+	}
+	.map, #map{
+		width: 970px;
+	}
+}
+@media (max-width: 1020px){
+	.video_pl, video{
+		display: none;
+	}
+	.container{
+		width: 730px;
+	}
+	.top_menu ul li a{
+		margin: 0 0;
+		padding: 7px 10px;
+		font-size: 30px;
+	}
+	h1{
+		width: 730px;
+	}
+	.preim h2{
+		width: 730px;
+	}
+	.preim_items{
+		width: 300px;
+		padding-top: 30px;
+	}
+	.preim_item{
+		float: none;
+		padding-top: 1px;
+	}
+	.preim_center{
+		margin:80px 0;
+	}
+	.product{
+		background-size: auto 100%;
+	}
+	.product .container{
+		width: 730px;
+	}
+	.products{
+		width: 660px;
+		margin: 0 auto;
+	}
+	.kakrab, .kakrab_bottom{
+		background-size: 2020px auto;
+	}
+	.kakrab .container{
+		width: 730px;
+	}
+	.kakrab_items{
+		width: 300px;
+		margin: 0 auto;
+		height: initial;
+	}
+	.kakrab_item{
+		float: none;
+		margin: 25px 0;
+	}
+	.kakrab_item p{
+		margin-top: 0;
+		padding-top: 98px;
+	}
+	.spec_pred{
+		width: 730px;
+	}
+	.vbei{
+		width: 730px;
+	}
+
+.kakrab .vbei select{
+		width: 220px;
+		font-size: 18px;
+}
+	.input_litr{
+		width: 220px;
+	}
+	.vbei_cena{
+		width: 260px;
+	}
+	.timer{
+		width: 730px;
+	}
+	.timer .timer_item:nth-child(1), .timer .timer_item:nth-child(3), .timer .timer_item:nth-child(5){
+		margin-right: 2px;
+	}
+	.predstavitelstva{
+		background-size: 220%;
+	}
+	.predstavitelstva .container{
+		width: 730px;
+	}
+	.predst_items{
+		width: 300px;
+		margin: 30px auto;
+	}
+	.predst_item{
+		margin: 15px 0;
+	}
+	.map, #map{
+		width: 100%;
+	}
+	.footer_logo{
+		float: none;
+		margin: 0 auto;
+	}
+	.footer_menu{
+		float: none;
+		margin:0 auto;
+	}
+	.footer_counter{
+		float: none;
+		margin:0 auto;
+	}
+	.footer_copyright{
+		margin-top: 70px;
+	}
+}
+@media (max-width: 750px){
+	.container{
+		width: 450px;
+	}
+	.top_menu ul li{
+		width: 100%;
+		text-align: center;
+		float: none;
+	}
+	.modal_descr{
+		width: 400px;
+	}
+	.top_logocont{
+		height: inherit;
+	}
+	.top_logocont .logo{
+		float: none;
+		margin: 0 auto;
+	}
+	.top_zvonok{
+		float: none;
+		width: 300px;
+		margin: 20px auto;
+	}
+	h1{
+		width: 450px;
+		font-size: 75px;
+		line-height: 70px;
+	}
+	.preim h2{
+		width: 450px;
+		font-size: 32px;
+	}
+	.product .container{
+		width: 450px;
+	}
+	.product h1, .kakrab h1{
+		font-size: 54px;
+	}
+	.products{
+		width: 300px;
+	}
+	.kakrab .container{
+		width: 450px;
+	}
+	.spec_pred{
+		width: 450px;
+	}
+	.spec_pred p{
+		font-size: 32px;
+	}
+	.vbei{
+		width: 450px;
+	}
+	.vbei select{
+		width: 100%;
+		float: none;
+		margin: 20px auto;
+	}
+	.vbei_cena{
+		float: none;
+		width: 100%;
+		margin: 20px auto;
+		text-align: center;
+	}
+	.input_litr{
+		float: none;
+		width: 100%;
+		margin: 20px auto;
+	}
+	.timer{
+		width: 450px;
+	}
+	.timer_item{
+		width: 67px;
+		font-size: 54px;
+		height: 76px;
+	}
+	.kakrab_bottom{
+		width: 450px;
+		margin: 0 auto;
+	}
+	.form{
+		width: 450px;
+	}
+	.form_container{
+		width: 450px;
+	}
+	.form input[type="text"]{
+		width: 300px;
+	}
+	.predstavitelstva{
+		background-size: auto 100%;
+	}
+	.predstavitelstva .container{
+		width: 450px;
+	}
+	.predstavitelstva h1{
+		font-size: 36px;
+	}
+	.footer{
+		height: inherit;
+	}
+	.footer_logo{
+		margin: 0 auto;
+		float: none;
+	}
+	.footer_counter{
+		float: none;
+		margin: 20px auto;
+	}
+	.footer_counter a{
+		margin: 0 auto;
+		display: block;
+		width: 88px;
+	}
+	.form_popup{
+		width: 450px;
+	}
+	.form_popup input[type="text"]{
+		width: 300px;
+	}
+	.footer_copyright{
+		width: 300px;
+	}
+	.footer_copyright img,.footer_copyright p{
+		float: none;
+		margin: 10px auto;
+	}
+}
+@media (max-width: 470px){
+	.container{
+		width: 300px;
+	}
+	.top_logocont .logo{
+		width: 300px;
+	}
+	h1{
+		width: 300px;
+		font-size: 52px;
+		line-height: 50px;
+		padding-bottom: 17px;
+	}
+	.preim h2{
+		width: 300px;
+	}
+	.product .container{
+		width: 300px;
+	}
+	.product h1, .kakrab h1{
+		font-size: 36px;
+		padding-top: 10px;
+		padding-bottom: 10px;;
+	}
+	.product_item{
+		margin: 25px 0;
+	}
+	.send_price, .send_zakaz{
+		width: 300px;
+		font-size: 24px;
+		padding: 10px 0px;
+	}
+	.kakrab .container{
+		width: 300px;
+	}
+	.spec_pred{
+		width: 300px;
+	}
+	.vbei{
+		width: 300px;
+	}
+	.timer{
+		width: 300px;
+	}
+	.timer_item{
+		width: 45px;
+		height: 54px;
+		font-size: 36px;
+		padding-top: 10px;
+	}
+	.timer .timer_item:nth-child(2), .timer .timer_item:nth-child(4){
+		margin-right: 5px;
+	}
+	.form{
+		width: 300px;
+	}
+	.form_container{
+		width: 300px;
+	}
+	.form input[type="text"]{
+		width: 280px;
+	}
+	.form input[type="submit"]{
+		padding: 30px 0px;
+		width: 300px;
+	}
+	.kakrab_bottom{
+		width: 300px;
+	}
+	.predstavitelstva .container{
+		width: 300px;
+	}
+	.predstavitelstva h1{
+		font-size: 24px;
+		padding-top: 16px;
+		padding-bottom: 18px;
+	}
+	.footer_logo{
+		width: 300px;
+	}
+	.form_popup{
+		width: 300px;
+	}
+	.form_popup input[type="text"]{
+		width: 280px;
+	}
+	.form_popup input[type="submit"]{
+		padding: 20px 0px;
+		width: 300px;
+	}
+}
